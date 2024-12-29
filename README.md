@@ -1,3 +1,6 @@
+
+![image](https://github.com/user-attachments/assets/e5b5dede-5c4f-4233-83fa-02f023ee1933)
+
 # 智能医导大模型
 
 这是一个基于InternLM实现的项目，用于回答病人的问题。
