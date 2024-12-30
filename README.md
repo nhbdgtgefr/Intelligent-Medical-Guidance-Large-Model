@@ -1,5 +1,3 @@
-项目的学习路线来自书生浦语第三期训练营优秀项目Top1“销冠-卖货主播大模型"!!感谢大佬!!
-(https://github.com/PeterH0323/Streamer-Sales)
 ![image](https://github.com/user-attachments/assets/e5b5dede-5c4f-4233-83fa-02f023ee1933)
 
 # 智能医导大模型
@@ -45,3 +43,6 @@ TTS系统选型与配置：选择合适的TTS引擎（如Google Text-to-Speech�
 后端服务部署：将大模型、TTS系统和数字人集成系统部署到服务器上，确保高可用性和可扩展性。
 前后端联调：进行前后端联调，确保数据正确传输、功能正常实现，并优化用户体验。
 性能测试与优化：对整个系统进行性能测试，包括响应时间、并发处理能力等，并根据测试结果进行优化。
+
+项目的学习路线来自书生浦语第三期训练营优秀项目Top1“销冠-卖货主播大模型"!!感谢大佬!!
+(https://github.com/PeterH0323/Streamer-Sales)
