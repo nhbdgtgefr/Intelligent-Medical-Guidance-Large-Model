@@ -22,9 +22,8 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="expanded",
     menu_items={
-        "Get Help": "https://github.com/PeterH0323/Streamer-Sales/tree/main",
-        "Report a bug": "https://github.com/PeterH0323/Streamer-Sales/issues",
-        "About": "# Streamer-Sales LLM 销冠--卖货主播大模型",
+        "Get Help": "https://github.com/nhbdgtgefr/Intelligent-Medical-Guidance-Large-Model/tree/main",
+        "About": "# 智能医导大模型",
     },
 )
 from utils.rag.rag_worker import gen_rag_db
