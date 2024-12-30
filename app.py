@@ -22,9 +22,8 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="expanded",
     menu_items={
-        "Get Help": "https://github.com/PeterH0323/Streamer-Sales/tree/main",
-        "Report a bug": "https://github.com/PeterH0323/Streamer-Sales/issues",
-        "About": "# Streamer-Sales LLM 销冠--卖货主播大模型",
+        "Get Help": "https://github.com/nhbdgtgefr/Intelligent-Medical-Guidance-Large-Model/tree/main",
+        "About": "# 智能医导大模型",
     },
 )
 from utils.rag.rag_worker import gen_rag_db
@@ -339,9 +338,7 @@ def main():
     if "sales_info" not in st.session_state:
         get_sales_info()
 
-    # 添加页面导航页
-    # st.sidebar.page_link("app.py", label="商品页", disabled=True)
-    # st.sidebar.page_link("./pages/selling_page.py", label="主播卖货")
+
 
     # 主页标题
     
@@ -361,11 +358,8 @@ def main():
         # 标题
         st.header("智能医导大模型", divider="grey")
         st.markdown("[智能医导大模型](https://github.com/nhbdgtgefr/item)")
-        # st.subheader("功能点：", divider="grey")
-        # st.markdown(
-        #     "1. 📜 **小助手文案一键生成**\n2. 🚀 KV cache + Turbomind **推理加速**\n3. 📚 RAG **检索增强生成**\n4. 🔊 TTS **文字转语音**\n5. 🦸 **数字人生成**\n6. 🌐 **Agent 网络查询**\n7. 🎙️ **ASR 语音转文字**"
-        # )
 
+        
         st.subheader(f"小助手后台信息", divider="grey")
         st.markdown(f"共有科室：{product_num} 个")
 

@@ -18,8 +18,7 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="expanded",
     menu_items={
-        "Get Help": "https://github.com/PeterH0323/Streamer-Sales/tree/main",
-        "Report a bug": "https://github.com/PeterH0323/Streamer-Sales/issues",
+        "Get Help": "https://github.com/nhbdgtgefr/Intelligent-Medical-Guidance-Large-Model/tree/main",
         "About": "# 智能医导大模型",
     },
 )
@@ -53,7 +52,7 @@ def init_sidebar():
     with st.sidebar:
         # 标题
         st.markdown("## 智能医导大模型")
-        st.markdown("[智能医导大模型](https://github.com/nhbdgtgefr/item)")
+        st.markdown("[智能医导大模型](https://github.com/nhbdgtgefr/Intelligent-Medical-Guidance-Large-Model)")
         st.subheader("功能点：", divider="grey")
         # st.markdown(
         #     "1. 📜 **主播文案一键生成**\n2. 🚀 KV cache + Turbomind **推理加速**\n3. 📚 RAG **检索增强生成**\n4. 🔊 TTS **文字转语音**\n5. 🦸 **数字人生成**\n6. 🌐 **Agent 网络查询**\n7. 🎙️ **ASR 语音转文字**"
@@ -272,8 +271,7 @@ def main(meta_instruction):
 # st.sidebar.page_link("app.py", label="商品页")
 # st.sidebar.page_link("./pages/selling_page.py", label="主播卖货", disabled=True)
 
-# META_INSTRUCTION = ("现在你是一位金牌带货主播，你的名字叫乐乐喵，你的说话方式是甜美、可爱、熟练使用各种网络热门梗造句、称呼客户为[家人们]。你能够根据产品信息讲解产品并且结合商品信息解答用户提出的疑问。")
-
+# META_INSTRUCTION 
 print("into sales page")
 st.session_state.current_page = "pages/selling_page.py"
 
