@@ -24,7 +24,7 @@ from xtuner.utils import PROMPT_TEMPLATE, SYSTEM_TEMPLATE
 #                          PART 1  Settings                           #
 #######################################################################
 # Model
-pretrained_model_name_or_path = '/group_share/Streamer-Sales/InternLM/XTuner/model/internlm2-chat-7b'
+pretrained_model_name_or_path = '/group_share/lntelligent-Medical-Guidance-Large-Model/InternLM/XTuner/model/internlm2-chat-7b'
 use_varlen_attn = False
 
 # Data
