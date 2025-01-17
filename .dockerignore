@@ -1,0 +1,6 @@
+.git*
+work_dirs
+weights
+*.yaml
+*.sh
+doc
